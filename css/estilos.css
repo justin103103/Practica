@@ -1,0 +1,411 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #092837;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+     background-color: #b4bc7b;
+    font-size: 25px;
+    font-family: forte;
+    color: rgb(8, 115, 134);
+    border: none;
+    border-radius: 6px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(115, 73, 73, 0.3); /* Sombra */
+    text-decoration: none;
+    
+}
+
+nav li a:hover{
+    color: #ae2235;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    font-size: 60px;s
+    color: lightsalmon;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #159253;
+    font-size: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.iconos a:hover {
+   
+    color: #d63737;
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
+    
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('imagen/arbol.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.contenidouno img { 
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* La imagen ocupa todo el ancho */
+  height: 100%; /* La imagen ocupa todo el alto */
+  object-fit: cover; /* La imagen se ajusta sin deformarse */
+  
+
+}
+
+.contenidouno h1{
+  position: relative;
+  top: -390px; /* Mueve el texto hacia arriba */
+  margin-bottom: -10px;
+  font-size: 70px;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: rgba(99, 20, 91, 0.81);
+  font-family: "Rye", serif;;
+    
+}
+
+.contenidouno h2{
+  position: relative;
+  top: -380px; /* Mueve el texto hacia arriba */
+    margin-bottom: 15px;
+    font-family:  "Allerta Stencil", sans-serif;
+    font-size: 60px;
+    color: rgba(142, 65, 24, 0.799);
+}
+
+.contenidouno p{
+  position: relative;
+  top: -370px; /* Mueve el texto hacia arriba */
+    margin-bottom: 30px;
+    font-family: "Delicious Handrawn";
+    font-size: 25px;
+    color: #051133b9;
+}
+
+.buttons {
+
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    
+
+}
+
+.button {
+    background-color: #000000;
+    color: rgb(203, 91, 247);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: "Edu AU VIC WA NT Dots", cursive;;
+    font-size: 27px;
+    margin: 0 30px;
+    position: relative; /* Contenedor relativo para colocar el botón dentro */
+    width: 500%; /* Ancho del contenedor */
+    top: -360px; /* Mueve el texto hacia arriba */
+
+}
+
+.button:hover {
+    background-color: #75724c;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('imagen/montaña.jpg');
+    background-size:contain;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #580a0a;
+    padding: 2px;
+    background: rgba(130, 115, 115, 0.8);
+}
+
+.contenidodos img {
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* La imagen ocupa todo el ancho */
+  height: 100%; /* La imagen ocupa todo el alto */
+  object-fit: cover; /* La imagen se ajusta sin deformarse */
+  
+}
+
+
+
+
+.contenidodos h2{
+     position: relative;
+      top: -200px; /* Mueve el texto hacia arriba */
+      margin-bottom: -180px;
+     color: rgb(6, 45, 112);
+     font-family:  "Edu NSW ACT Foundation", cursive;
+     font-size: 40px;
+     font-weight: 400;
+     font-style: normal;
+     letter-spacing: 2px;
+    
+    
+  
+
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #a22929;
+    font-size: 42px;
+}
+.figuras a:hover {
+   
+    color: #340284;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #ac732c;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-family: "Bruno Ace SC", sans-serif;;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #691024;
+  }
+
+  .galeria p {
+    color: #a40a4dee;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+    font-size: 23px;
+    line-height:5px ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: 300px;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 79px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #9e1caf;
+    color: #06c245d6;
+    text-decoration:dotted;
+    border: 3px solid #531515;
+    border-radius: 10px;
+    margin-top: 95px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra sutil */
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #8227a9be;
+    cursor: pointer;            /* Muestra el cursor de mano */
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #820f0f;
+    height: 140px ;
+    max-width:  100%;
+    color: #a46a6ac2;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  h3, p {
+    text-align: center;   /* Centra el texto de ambos elementos */
+    margin: 30px/* Ajusta los márgenes para que el contenido esté centrado */
+  }
+  
+  h3 {
+   
+    color: rgb(41, 228, 56);
+    margin-top: -25px;  /* Controla el espacio entre el H3 y el párrafo */
+   margin-right: -180px;
+   font-size: 35px;
+   margin-left: -30px;
+  }
+  
+  p {
+    margin-top: 65px;        /* Elimina espacio superior del párrafo */
+    font-size: 25px;      /* Tamaño del texto del párrafo */
+    color: #0bc270;          /* Color del texto */
+    margin-right: 0px;
+    margin-left: -10px;
+   
+  }
+
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-top:-11px;
+    
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #167f8f;
+    font-size: 24px;
+    transition: color 0.3s;
+   
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
